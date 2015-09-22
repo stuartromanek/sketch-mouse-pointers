@@ -2,7 +2,7 @@
   "name": "Mouse Pointers",
   "description": "Add Mouse Pointers",
   "author": "Stuart Romanek",
-  "homepage": "http://github.com/stuartromanek/sketch-pointers",
+  "homepage": "https://github.com/stuartromanek/sketch-mouse-pointers",
   "version": 1.0,
   "identifier": "com.example.sketch.mousePointers",
   "compatibleVersion": 3,
