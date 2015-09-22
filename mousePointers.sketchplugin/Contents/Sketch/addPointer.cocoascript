@@ -1,0 +1,10 @@
+@import "library.cocoascript";
+
+var onRun = function (context) {
+  var doc = context.document;
+  var plugin = context.plugin;
+  var page = [doc currentPage];
+  var imageLayer = SketchLib.addImageLayer(page, {"name": "Pointer", "url": [plugin urlForResourceNamed:"pointer.eps"]})
+  SketchLib.util.centerLayer(imageLayer);
+  [[doc currentView] centerRect:[imageLayer rect]];
+}

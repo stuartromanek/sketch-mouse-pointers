@@ -1,0 +1,37 @@
+{
+  "name": "Mouse Pointers",
+  "description": "Add Mouse Pointers",
+  "author": "Stuart Romanek",
+  "homepage": "http://github.com/stuartromanek/sketch-pointers",
+  "version": 1.0,
+  "identifier": "com.example.sketch.mousePointers",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Add Pointer",
+      "identifier": "pointer",
+      "script": "addPointer.cocoascript",
+      "shortcut": ""
+    },
+    {
+      "name": "Add Mouse",
+      "identifier": "mouse",
+      "script": "addMouse.cocoascript",
+      "shortcut": ""
+    },
+    {
+      "name": "Add Hand",
+      "identifier": "hand",
+      "script": "addHand.cocoascript",
+      "shortcut": ""
+    },
+  ],
+  "menu": {
+    "items": [
+      "pointer",
+      "hand",
+      "mouse"
+    ]
+  }
+}
