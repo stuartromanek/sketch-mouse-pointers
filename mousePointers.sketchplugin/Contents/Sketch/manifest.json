@@ -25,7 +25,7 @@
       "identifier": "hand",
       "script": "addHand.cocoascript",
       "shortcut": ""
-    },
+    }
   ],
   "menu": {
     "items": [
